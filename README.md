@@ -6,12 +6,12 @@ An on-chain game of skill.
 
 ## On-chain program
 
-The program is *immutably* deployed to Solana mainnet at the following address:
+The program is *immutably* deployed to Eclipse devnet at the following address:
 ```
-ChompZg47TcVy5fk2LxPEpW6SytFYBES5SHoqgrm8A4D
+63YfDxA8eAD4J3jPMXgpkjRXrycMJo14vTwwMRTEo2aP
 ```
 
 To verify the program's code, use the following command (requires `solana-verify` which can be installed via `cargo install solana-verify`):
 ```
-solana-verify verify-from-repo -um --program-id ChompZg47TcVy5fk2LxPEpW6SytFYBES5SHoqgrm8A4D https://github.com/jarry-xiao/chomping-glass
+solana-verify verify-from-repo -um --program-id 63YfDxA8eAD4J3jPMXgpkjRXrycMJo14vTwwMRTEo2aP https://github.com/jarry-xiao/chomping-glass
 ```
